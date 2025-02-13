@@ -8,15 +8,15 @@
 
 @layer components {
   h1 {
-    @apply text-2xl font-bold
+    @apply text-2xl font-bold;
   }
   button {
-    @apply px-2 py-1 rounded-lg border-2 cursor-pointer
+    @apply cursor-pointer rounded-lg border-2 px-2 py-1;
   }
   button:hover {
-    @apply bg-gray-200
+    @apply bg-gray-200;
   }
   button:disabled {
-    @apply text-gray-300
+    @apply text-gray-300;
   }
 }

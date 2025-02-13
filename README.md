@@ -15,7 +15,6 @@
 - Daher würde ich dir raten, die neue Engine einzuschalten.
   - Dazu musst du in den IntelliJ Settings unter `Languages & Frameworks` -> `TypeScript` die Option `Use types from server` _aktivieren_
     - Mehr dazu: https://www.jetbrains.com/help/idea/typescript-support.html#ws_verify_typescript_across_project
-    
 
 ## Node.JS + Package Manager
 
@@ -38,7 +37,7 @@
 - ```bash
   pnpm install
   ```
-  
+
 ## Starten des Frontends
 
 - Im Root-Verzeichnis bitte das Frontend starten.
@@ -61,4 +60,3 @@
 ## Geschafft! 😊
 
 Wenn bis hierher alles geklappt hast, bist du startklar. Bis zum Beginn des Workshops kannst du das Frontend und Storybook wieder beenden (Ctrl+C).
-
