@@ -34,6 +34,9 @@
 * Verende den `ArticleSlider` in der `App`-Komponente. 
   * Entferne dort den bestehenden `ArticleList`-Aufruf und render stattdessen den `ArticleSlider`
     * Was passiert wenn du den `ArticleSlider` mehrfach einbindest?
+* **Optional**, wenn wir noch Zeit haben, kannst du noch Verbesserungen machen
+  * Zum Beipiel den Button disablen, damit man nur klicken kann, wenn man im "gültigen" Bereich ist
+  * Weitere Buttons hinzufügen, mit denen man direkt auf eine "Seite" springen kann
 
 # Material
 
