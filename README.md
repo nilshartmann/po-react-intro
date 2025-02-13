@@ -60,3 +60,12 @@
 ## Geschafft! 😊
 
 Wenn bis hierher alles geklappt hast, bist du startklar. Bis zum Beginn des Workshops kannst du das Frontend und Storybook wieder beenden (Ctrl+C).
+
+## Arbeitsweise während des Workshops
+
+- Während des Workshops werden wir Schritt-für-Schritt einige React-Komponenten zusammenbauen
+- Ich zeige euch bei jedem Schritt zunächst ein React-Feature im Editor
+- Anschliessend macht ihr dazu eine Übung (die sehen immer so aus, dass ihr das programmiert, was ich auch programmiert habe)
+- Dazu werde ich nach jedem Schritt (und vor der Übung) meinen Code sowie die Aufgabenbeschreibung in dieses Repository einchecken.
+  - Das mache ich auf einem eigenen Branch, so dass ihr auf dem `main`-Branch euren Code committen könntet (wenn ihr wollt, müsst ihr natürlich nicht).
+  - Ich kopiere euch dann auf das Miro-Board den Link zu dem Commit im GitHub, so dass ihr dort die Aufgabenbeschreibung und (m)eine Lösung ansehen könnt.
