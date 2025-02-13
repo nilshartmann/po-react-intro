@@ -1,8 +1,5 @@
-export type BlogPost = {
+export type Article = {
   id: string;
   title: string;
-  body: string;
-  date: string;
-  tags: string[];
-  likes?: number;
+  likes: number;
 };
