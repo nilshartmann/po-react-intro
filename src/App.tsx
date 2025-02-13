@@ -1,3 +1,5 @@
+import ArticleCard from "./ArticleCard";
+
 export default function App() {
-  return "Hello React World";
+  return <ArticleCard />;
 }
