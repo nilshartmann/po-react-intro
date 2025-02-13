@@ -39,7 +39,8 @@
 # Material
 
 - Komponenten: https://react.dev/learn/your-first-component
-
+- Importieren und exportieren von Komponenten: https://react.dev/learn/importing-and-exporting-components
+  - Achtung! Beim `import` brauchst du in unserem Setup keine Dateiendung anzugeben!
 
 # CSS in React
 - Im Workspace ist Tailwind installiert, das kannst du out-of-the-box verwenden
