@@ -1,5 +1,4 @@
-import ArticleCard from "./ArticleCard";
-import ArticleList from "./ArticleList.tsx";
+import ArticleSlider from "./ArticleSlider.tsx";
 
 const article1 = {
   id: "1",
@@ -13,10 +12,28 @@ const article2 = {
   title: "Hello Next.js",
 };
 
+const article3 = {
+  id: "3",
+  likes: 10,
+  title: "Hello JavaScript",
+};
+const article4 = {
+  id: "4",
+  likes: 10,
+  title: "Hello HTML",
+};
+const article5 = {
+  id: "5",
+  likes: 10,
+  title: "Hello TypeScript",
+};
+
 export default function App() {
   return (
     <div>
-      <ArticleList articles={[article1, article2]} />
+      <ArticleSlider
+        articles={[article1, article2, article3, article4, article5]}
+      />
     </div>
   );
 }
