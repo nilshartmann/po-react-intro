@@ -25,7 +25,7 @@ export default function Slider({ images }: SliderProps) {
           Next
         </button>
       </div>
-      <img src={`/images/${images[currentImage]}`} alt={"..."} />
+      <img src={`/images/${images[currentImage]}`} alt={images[currentImage]} />
     </div>
   );
 }
