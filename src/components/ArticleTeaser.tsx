@@ -18,6 +18,7 @@ type ArticleTeaserProps = {
 //   - mal mit farbigem Hintergrund, mal ohne?
 //   -> das wird komplex!
 
+// Lassen wir hier als Beispiel stehen
 export default function ArticleTeaser({
   title,
   author,
