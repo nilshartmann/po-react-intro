@@ -8,15 +8,26 @@
 
 @layer components {
   h1 {
-    @apply text-2xl font-bold;
+    @apply text-3xl font-bold;
   }
+
+  h2 {
+    @apply text-xl font-bold;
+  }
+
+  img {
+    @apply max-h-48 mt-2;
+  }
+
   button {
-    @apply cursor-pointer rounded-lg border-2 px-2 py-1;
+    @apply px-2 py-1 border-2 border-gray-400 rounded-lg hover:bg-gray-200 cursor-pointer
   }
-  button:hover {
-    @apply bg-gray-200;
+
+  .ArticleList {
+    @apply flex flex-col gap-y-4;
   }
-  button:disabled {
-    @apply text-gray-300;
+
+  .ButtonBar {
+    @apply flex gap-x-4;
   }
 }
