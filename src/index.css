@@ -20,8 +20,9 @@
   }
 
   button {
-    @apply px-2 py-1 border-2 border-gray-400 rounded-lg hover:bg-gray-200 cursor-pointer
+    @apply px-2 py-1 border-2 border-gray-400 rounded-lg hover:bg-gray-200 cursor-pointer disabled:text-gray-300 disabled:hover:bg-white disabled:border-gray-300
   }
+
 
   .ArticleList {
     @apply flex flex-col gap-y-4;
