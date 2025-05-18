@@ -1,11 +1,20 @@
-export default function ArticleTeaser() {
+type ArticleTeaserProps = {
+  title: string;
+  author: string;
+  intro: string;
+};
+export default function ArticleTeaser({
+  title,
+  author,
+  intro,
+}: ArticleTeaserProps) {
   return (
     <article>
-      <h1>Hello React</h1>
+      <h1>{title}</h1>
       <p>
-        von <em>Nora Müller</em>
+        von <em>{author}</em>
       </p>
-      <p>Eine kurze und knackige Einführung in React</p>
+      <p>{intro}</p>
     </article>
   );
 }

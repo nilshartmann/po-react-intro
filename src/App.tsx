@@ -1,5 +1,12 @@
 import ArticleTeaser from "./components/ArticleTeaser.tsx";
 
 export default function App() {
-  return <ArticleTeaser />;
+  // wo kommen die Daten her? => sehen wir uns später an
+  return (
+    <ArticleTeaser
+      title={"Hello React"}
+      author={"Laura Müller"}
+      intro={"Short introduction into React development"}
+    />
+  );
 }
